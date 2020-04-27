@@ -1,0 +1,465 @@
+# JMH version: 1.23
+# VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
+# VM invoker: C:\Java\jdk-11.0.6\bin\java.exe
+# VM options: -Xss64m
+# Warmup: 6 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.DeepRecursionBenchmark.coroutinesBasic
+
+# Run progress: 0.00% complete, ETA 00:04:16
+# Fork: 1 of 2
+# Warmup Iteration   1: 6.979 ms/op
+# Warmup Iteration   2: 5.054 ms/op
+# Warmup Iteration   3: 6.695 ms/op
+# Warmup Iteration   4: 4.520 ms/op
+# Warmup Iteration   5: 4.297 ms/op
+# Warmup Iteration   6: 4.386 ms/op
+Iteration   1: 4.270 ms/op
+Iteration   2: 4.369 ms/op
+Iteration   3: 4.287 ms/op
+Iteration   4: 4.368 ms/op
+Iteration   5: 4.280 ms/op
+Iteration   6: 4.358 ms/op
+Iteration   7: 4.287 ms/op
+Iteration   8: 4.292 ms/op
+Iteration   9: 4.369 ms/op
+Iteration  10: 4.288 ms/op
+
+# Run progress: 6.25% complete, ETA 00:04:06
+# Fork: 2 of 2
+# Warmup Iteration   1: 7.565 ms/op
+# Warmup Iteration   2: 6.431 ms/op
+# Warmup Iteration   3: 5.788 ms/op
+# Warmup Iteration   4: 4.441 ms/op
+# Warmup Iteration   5: 4.245 ms/op
+# Warmup Iteration   6: 4.313 ms/op
+Iteration   1: 4.348 ms/op
+Iteration   2: 4.381 ms/op
+Iteration   3: 4.221 ms/op
+Iteration   4: 4.366 ms/op
+Iteration   5: 4.275 ms/op
+Iteration   6: 4.314 ms/op
+Iteration   7: 4.345 ms/op
+Iteration   8: 4.255 ms/op
+Iteration   9: 4.286 ms/op
+Iteration  10: 4.318 ms/op
+
+
+Result "benchmark.DeepRecursionBenchmark.coroutinesBasic":
+  4.314 ±(99.9%) 0.040 ms/op [Average]
+  (min, avg, max) = (4.221, 4.314, 4.381), stdev = 0.046
+  CI (99.9%): [4.274, 4.354] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
+# VM invoker: C:\Java\jdk-11.0.6\bin\java.exe
+# VM options: -Xss64m
+# Warmup: 6 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.DeepRecursionBenchmark.coroutinesBasicOpt
+
+# Run progress: 12.50% complete, ETA 00:03:50
+# Fork: 1 of 2
+# Warmup Iteration   1: 3.889 ms/op
+# Warmup Iteration   2: 3.076 ms/op
+# Warmup Iteration   3: 3.009 ms/op
+# Warmup Iteration   4: 2.275 ms/op
+# Warmup Iteration   5: 2.342 ms/op
+# Warmup Iteration   6: 2.313 ms/op
+Iteration   1: 2.259 ms/op
+Iteration   2: 2.298 ms/op
+Iteration   3: 2.274 ms/op
+Iteration   4: 2.312 ms/op
+Iteration   5: 2.295 ms/op
+Iteration   6: 2.315 ms/op
+Iteration   7: 2.363 ms/op
+Iteration   8: 2.330 ms/op
+Iteration   9: 2.363 ms/op
+Iteration  10: 2.325 ms/op
+
+# Run progress: 18.75% complete, ETA 00:03:34
+# Fork: 2 of 2
+# Warmup Iteration   1: 3.765 ms/op
+# Warmup Iteration   2: 3.287 ms/op
+# Warmup Iteration   3: 2.667 ms/op
+# Warmup Iteration   4: 3.173 ms/op
+# Warmup Iteration   5: 2.572 ms/op
+# Warmup Iteration   6: 2.500 ms/op
+Iteration   1: 2.630 ms/op
+Iteration   2: 2.426 ms/op
+Iteration   3: 2.416 ms/op
+Iteration   4: 2.444 ms/op
+Iteration   5: 2.427 ms/op
+Iteration   6: 2.432 ms/op
+Iteration   7: 2.449 ms/op
+Iteration   8: 2.428 ms/op
+Iteration   9: 2.482 ms/op
+Iteration  10: 2.465 ms/op
+
+
+Result "benchmark.DeepRecursionBenchmark.coroutinesBasicOpt":
+  2.387 ±(99.9%) 0.078 ms/op [Average]
+  (min, avg, max) = (2.259, 2.387, 2.630), stdev = 0.090
+  CI (99.9%): [2.309, 2.465] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
+# VM invoker: C:\Java\jdk-11.0.6\bin\java.exe
+# VM options: -Xss64m
+# Warmup: 6 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.DeepRecursionBenchmark.coroutinesFull
+
+# Run progress: 25.00% complete, ETA 00:03:17
+# Fork: 1 of 2
+# Warmup Iteration   1: 7.206 ms/op
+# Warmup Iteration   2: 6.618 ms/op
+# Warmup Iteration   3: 4.963 ms/op
+# Warmup Iteration   4: 5.541 ms/op
+# Warmup Iteration   5: 4.675 ms/op
+# Warmup Iteration   6: 4.685 ms/op
+Iteration   1: 4.722 ms/op
+Iteration   2: 4.641 ms/op
+Iteration   3: 4.681 ms/op
+Iteration   4: 4.748 ms/op
+Iteration   5: 4.707 ms/op
+Iteration   6: 4.680 ms/op
+Iteration   7: 4.672 ms/op
+Iteration   8: 4.757 ms/op
+Iteration   9: 4.630 ms/op
+Iteration  10: 4.679 ms/op
+
+# Run progress: 31.25% complete, ETA 00:03:01
+# Fork: 2 of 2
+# Warmup Iteration   1: 6.853 ms/op
+# Warmup Iteration   2: 5.765 ms/op
+# Warmup Iteration   3: 6.039 ms/op
+# Warmup Iteration   4: 4.562 ms/op
+# Warmup Iteration   5: 4.484 ms/op
+# Warmup Iteration   6: 4.509 ms/op
+Iteration   1: 4.481 ms/op
+Iteration   2: 4.481 ms/op
+Iteration   3: 4.493 ms/op
+Iteration   4: 4.445 ms/op
+Iteration   5: 4.537 ms/op
+Iteration   6: 4.479 ms/op
+Iteration   7: 4.520 ms/op
+Iteration   8: 4.478 ms/op
+Iteration   9: 4.516 ms/op
+Iteration  10: 4.431 ms/op
+
+
+Result "benchmark.DeepRecursionBenchmark.coroutinesFull":
+  4.589 ±(99.9%) 0.097 ms/op [Average]
+  (min, avg, max) = (4.431, 4.589, 4.757), stdev = 0.112
+  CI (99.9%): [4.492, 4.686] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
+# VM invoker: C:\Java\jdk-11.0.6\bin\java.exe
+# VM options: -Xss64m
+# Warmup: 6 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.DeepRecursionBenchmark.coroutinesFullOpt
+
+# Run progress: 37.50% complete, ETA 00:02:44
+# Fork: 1 of 2
+# Warmup Iteration   1: 3.417 ms/op
+# Warmup Iteration   2: 2.935 ms/op
+# Warmup Iteration   3: 2.927 ms/op
+# Warmup Iteration   4: 2.392 ms/op
+# Warmup Iteration   5: 2.383 ms/op
+# Warmup Iteration   6: 2.456 ms/op
+Iteration   1: 2.256 ms/op
+Iteration   2: 2.262 ms/op
+Iteration   3: 2.344 ms/op
+Iteration   4: 2.263 ms/op
+Iteration   5: 2.266 ms/op
+Iteration   6: 2.248 ms/op
+Iteration   7: 2.323 ms/op
+Iteration   8: 2.207 ms/op
+Iteration   9: 2.184 ms/op
+Iteration  10: 2.200 ms/op
+
+# Run progress: 43.75% complete, ETA 00:02:28
+# Fork: 2 of 2
+# Warmup Iteration   1: 3.702 ms/op
+# Warmup Iteration   2: 3.295 ms/op
+# Warmup Iteration   3: 2.816 ms/op
+# Warmup Iteration   4: 2.496 ms/op
+# Warmup Iteration   5: 2.357 ms/op
+# Warmup Iteration   6: 2.317 ms/op
+Iteration   1: 2.417 ms/op
+Iteration   2: 2.335 ms/op
+Iteration   3: 2.414 ms/op
+Iteration   4: 2.321 ms/op
+Iteration   5: 2.360 ms/op
+Iteration   6: 2.324 ms/op
+Iteration   7: 2.317 ms/op
+Iteration   8: 2.328 ms/op
+Iteration   9: 2.275 ms/op
+Iteration  10: 2.243 ms/op
+
+
+Result "benchmark.DeepRecursionBenchmark.coroutinesFullOpt":
+  2.294 ±(99.9%) 0.056 ms/op [Average]
+  (min, avg, max) = (2.184, 2.294, 2.417), stdev = 0.065
+  CI (99.9%): [2.238, 2.351] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
+# VM invoker: C:\Java\jdk-11.0.6\bin\java.exe
+# VM options: -Xss64m
+# Warmup: 6 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.DeepRecursionBenchmark.manualDFS
+
+# Run progress: 50.00% complete, ETA 00:02:11
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.843 ms/op
+# Warmup Iteration   2: 0.721 ms/op
+# Warmup Iteration   3: 0.611 ms/op
+# Warmup Iteration   4: 0.613 ms/op
+# Warmup Iteration   5: 0.610 ms/op
+# Warmup Iteration   6: 0.611 ms/op
+Iteration   1: 0.610 ms/op
+Iteration   2: 0.609 ms/op
+Iteration   3: 0.609 ms/op
+Iteration   4: 0.611 ms/op
+Iteration   5: 0.610 ms/op
+Iteration   6: 0.614 ms/op
+Iteration   7: 0.611 ms/op
+Iteration   8: 0.613 ms/op
+Iteration   9: 0.612 ms/op
+Iteration  10: 0.611 ms/op
+
+# Run progress: 56.25% complete, ETA 00:01:55
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.832 ms/op
+# Warmup Iteration   2: 0.713 ms/op
+# Warmup Iteration   3: 0.612 ms/op
+# Warmup Iteration   4: 0.611 ms/op
+# Warmup Iteration   5: 0.612 ms/op
+# Warmup Iteration   6: 0.612 ms/op
+Iteration   1: 0.613 ms/op
+Iteration   2: 0.612 ms/op
+Iteration   3: 0.613 ms/op
+Iteration   4: 0.611 ms/op
+Iteration   5: 0.612 ms/op
+Iteration   6: 0.608 ms/op
+Iteration   7: 0.613 ms/op
+Iteration   8: 0.615 ms/op
+Iteration   9: 0.610 ms/op
+Iteration  10: 0.610 ms/op
+
+
+Result "benchmark.DeepRecursionBenchmark.manualDFS":
+  0.611 ±(99.9%) 0.002 ms/op [Average]
+  (min, avg, max) = (0.608, 0.611, 0.615), stdev = 0.002
+  CI (99.9%): [0.610, 0.613] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
+# VM invoker: C:\Java\jdk-11.0.6\bin\java.exe
+# VM options: -Xss64m
+# Warmup: 6 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.DeepRecursionBenchmark.manualState
+
+# Run progress: 62.50% complete, ETA 00:01:38
+# Fork: 1 of 2
+# Warmup Iteration   1: 1.688 ms/op
+# Warmup Iteration   2: 1.466 ms/op
+# Warmup Iteration   3: 1.417 ms/op
+# Warmup Iteration   4: 1.413 ms/op
+# Warmup Iteration   5: 1.413 ms/op
+# Warmup Iteration   6: 1.412 ms/op
+Iteration   1: 1.409 ms/op
+Iteration   2: 1.415 ms/op
+Iteration   3: 1.421 ms/op
+Iteration   4: 1.433 ms/op
+Iteration   5: 1.418 ms/op
+Iteration   6: 1.427 ms/op
+Iteration   7: 1.424 ms/op
+Iteration   8: 1.419 ms/op
+Iteration   9: 1.419 ms/op
+Iteration  10: 1.421 ms/op
+
+# Run progress: 68.75% complete, ETA 00:01:22
+# Fork: 2 of 2
+# Warmup Iteration   1: 1.679 ms/op
+# Warmup Iteration   2: 1.511 ms/op
+# Warmup Iteration   3: 1.418 ms/op
+# Warmup Iteration   4: 1.433 ms/op
+# Warmup Iteration   5: 1.444 ms/op
+# Warmup Iteration   6: 1.421 ms/op
+Iteration   1: 1.423 ms/op
+Iteration   2: 1.458 ms/op
+Iteration   3: 1.432 ms/op
+Iteration   4: 1.421 ms/op
+Iteration   5: 1.417 ms/op
+Iteration   6: 1.418 ms/op
+Iteration   7: 1.426 ms/op
+Iteration   8: 1.423 ms/op
+Iteration   9: 1.424 ms/op
+Iteration  10: 1.421 ms/op
+
+
+Result "benchmark.DeepRecursionBenchmark.manualState":
+  1.423 ±(99.9%) 0.008 ms/op [Average]
+  (min, avg, max) = (1.409, 1.423, 1.458), stdev = 0.010
+  CI (99.9%): [1.415, 1.432] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
+# VM invoker: C:\Java\jdk-11.0.6\bin\java.exe
+# VM options: -Xss64m
+# Warmup: 6 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.DeepRecursionBenchmark.recursive
+
+# Run progress: 75.00% complete, ETA 00:01:05
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.612 ms/op
+# Warmup Iteration   2: 0.612 ms/op
+# Warmup Iteration   3: 0.597 ms/op
+# Warmup Iteration   4: 0.601 ms/op
+# Warmup Iteration   5: 0.599 ms/op
+# Warmup Iteration   6: 0.607 ms/op
+Iteration   1: 0.596 ms/op
+Iteration   2: 0.594 ms/op
+Iteration   3: 0.598 ms/op
+Iteration   4: 0.609 ms/op
+Iteration   5: 0.592 ms/op
+Iteration   6: 0.587 ms/op
+Iteration   7: 0.607 ms/op
+Iteration   8: 0.607 ms/op
+Iteration   9: 0.606 ms/op
+Iteration  10: 0.601 ms/op
+
+# Run progress: 81.25% complete, ETA 00:00:49
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.613 ms/op
+# Warmup Iteration   2: 0.611 ms/op
+# Warmup Iteration   3: 0.597 ms/op
+# Warmup Iteration   4: 0.604 ms/op
+# Warmup Iteration   5: 0.593 ms/op
+# Warmup Iteration   6: 0.603 ms/op
+Iteration   1: 0.606 ms/op
+Iteration   2: 0.604 ms/op
+Iteration   3: 0.606 ms/op
+Iteration   4: 0.604 ms/op
+Iteration   5: 0.613 ms/op
+Iteration   6: 0.629 ms/op
+Iteration   7: 0.602 ms/op
+Iteration   8: 0.596 ms/op
+Iteration   9: 0.601 ms/op
+Iteration  10: 0.606 ms/op
+
+
+Result "benchmark.DeepRecursionBenchmark.recursive":
+  0.603 ±(99.9%) 0.008 ms/op [Average]
+  (min, avg, max) = (0.587, 0.603, 0.629), stdev = 0.009
+  CI (99.9%): [0.595, 0.611] (assumes normal distribution)
+
+
+# JMH version: 1.23
+# VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
+# VM invoker: C:\Java\jdk-11.0.6\bin\java.exe
+# VM options: -Xss64m
+# Warmup: 6 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.DeepRecursionBenchmark.recursiveOpt
+
+# Run progress: 87.50% complete, ETA 00:00:32
+# Fork: 1 of 2
+# Warmup Iteration   1: 0.441 ms/op
+# Warmup Iteration   2: 0.483 ms/op
+# Warmup Iteration   3: 0.520 ms/op
+# Warmup Iteration   4: 0.464 ms/op
+# Warmup Iteration   5: 0.446 ms/op
+# Warmup Iteration   6: 0.431 ms/op
+Iteration   1: 0.429 ms/op
+Iteration   2: 0.431 ms/op
+Iteration   3: 0.431 ms/op
+Iteration   4: 0.433 ms/op
+Iteration   5: 0.428 ms/op
+Iteration   6: 0.435 ms/op
+Iteration   7: 0.429 ms/op
+Iteration   8: 0.430 ms/op
+Iteration   9: 0.437 ms/op
+Iteration  10: 0.428 ms/op
+
+# Run progress: 93.75% complete, ETA 00:00:16
+# Fork: 2 of 2
+# Warmup Iteration   1: 0.439 ms/op
+# Warmup Iteration   2: 0.439 ms/op
+# Warmup Iteration   3: 0.428 ms/op
+# Warmup Iteration   4: 0.436 ms/op
+# Warmup Iteration   5: 0.431 ms/op
+# Warmup Iteration   6: 0.435 ms/op
+Iteration   1: 0.434 ms/op
+Iteration   2: 0.432 ms/op
+Iteration   3: 0.428 ms/op
+Iteration   4: 0.430 ms/op
+Iteration   5: 0.431 ms/op
+Iteration   6: 0.429 ms/op
+Iteration   7: 0.454 ms/op
+Iteration   8: 0.447 ms/op
+Iteration   9: 0.438 ms/op
+Iteration  10: 0.435 ms/op
+
+
+Result "benchmark.DeepRecursionBenchmark.recursiveOpt":
+  0.433 ±(99.9%) 0.006 ms/op [Average]
+  (min, avg, max) = (0.428, 0.433, 0.454), stdev = 0.007
+  CI (99.9%): [0.428, 0.439] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:22
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  Mode  Cnt  Score   Error  Units
+DeepRecursionBenchmark.coroutinesBasic     avgt   20  4.314 ± 0.040  ms/op
+DeepRecursionBenchmark.coroutinesBasicOpt  avgt   20  2.387 ± 0.078  ms/op
+DeepRecursionBenchmark.coroutinesFull      avgt   20  4.589 ± 0.097  ms/op
+DeepRecursionBenchmark.coroutinesFullOpt   avgt   20  2.294 ± 0.056  ms/op
+DeepRecursionBenchmark.manualDFS           avgt   20  0.611 ± 0.002  ms/op
+DeepRecursionBenchmark.manualState         avgt   20  1.423 ± 0.008  ms/op
+DeepRecursionBenchmark.recursive           avgt   20  0.603 ± 0.008  ms/op
+DeepRecursionBenchmark.recursiveOpt        avgt   20  0.433 ± 0.006  ms/op
