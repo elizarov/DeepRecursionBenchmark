@@ -30,6 +30,11 @@ open class DeepRecursionBenchmark {
     }
 
     @Benchmark
+    fun manualDFSFast() {
+        check(depthManualDFSFast(deepTree) == expectedDepth)
+    }
+
+    @Benchmark
     fun manualState() {
         check(depthManualState(deepTree) == expectedDepth)
     }
@@ -61,6 +66,7 @@ fun main() {
         recursive()
         recursiveOpt()
         manualDFS()
+        manualDFSFast()
         manualState()
         coroutinesBasic()
         coroutinesBasicOpt()

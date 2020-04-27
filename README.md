@@ -42,13 +42,14 @@ Results:
 # VM version: JDK 11.0.6, Java HotSpot(TM) 64-Bit Server VM, 11.0.6+8-LTS
 # VM options: -Xss64m
 
-Benchmark                                  Mode  Cnt  Score   Error  Units
-DeepRecursionBenchmark.coroutinesBasic     avgt   20  4.314 ± 0.040  ms/op
-DeepRecursionBenchmark.coroutinesBasicOpt  avgt   20  2.387 ± 0.078  ms/op
-DeepRecursionBenchmark.coroutinesFull      avgt   20  4.589 ± 0.097  ms/op
-DeepRecursionBenchmark.coroutinesFullOpt   avgt   20  2.294 ± 0.056  ms/op
-DeepRecursionBenchmark.manualDFS           avgt   20  0.611 ± 0.002  ms/op
-DeepRecursionBenchmark.manualState         avgt   20  1.423 ± 0.008  ms/op
-DeepRecursionBenchmark.recursive           avgt   20  0.603 ± 0.008  ms/op
-DeepRecursionBenchmark.recursiveOpt        avgt   20  0.433 ± 0.006  ms/op
+Benchmark                                  Mode  Cnt  Score    Error  Units
+DeepRecursionBenchmark.coroutinesBasic     avgt   20  4.370 ±  0.067  ms/op
+DeepRecursionBenchmark.coroutinesBasicOpt  avgt   20  2.376 ±  0.022  ms/op
+DeepRecursionBenchmark.coroutinesFull      avgt   20  4.403 ±  0.163  ms/op
+DeepRecursionBenchmark.coroutinesFullOpt   avgt   20  2.309 ±  0.045  ms/op
+DeepRecursionBenchmark.manualDFS           avgt   20  0.599 ±  0.001  ms/op
+DeepRecursionBenchmark.manualDFSFast       avgt   20  0.287 ±  0.001  ms/op
+DeepRecursionBenchmark.manualState         avgt   20  1.359 ±  0.022  ms/op
+DeepRecursionBenchmark.recursive           avgt   20  0.581 ±  0.021  ms/op
+DeepRecursionBenchmark.recursiveOpt        avgt   20  0.413 ±  0.008  ms/op
 ```
